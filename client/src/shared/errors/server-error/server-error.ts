@@ -18,7 +18,7 @@ export class ServerError {
     this.error=navigation?.extras?.state?.['error'];
 
    } 
-   detailsToggle(){
+  detailsToggle(){
     this.showDetails=!this.showDetails;
    }
 }
